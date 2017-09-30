@@ -31,11 +31,10 @@ For example, if I wanted to connect an LED to the Pi and I wanted it to blink ev
 
 Running python scripts on the Pi
 So now that we have familiarized ourselves with how the pi works with the sensors, let’s start running python scripts on our simulated pi, which will allow us to use the values from the simulation. First, we’re going to run a script that will detect if the trash can lid is open or closed. After that, we’re going to run a python script which will allow us to detect the distance between the trash and the lid of the trashcan (using an ultrasonic sensor), which will effectively tell us how much trash we have in our trashcan. Here are the 2 scripts:
------------------------------------------------------------------------------------------------------------------------------------
+
 (Refer to testscript.py)
------------------------------------------------------------------------------------------------------------------------------------
+
 (Refer to ultra.py)
------------------------------------------------------------------------------------------------------------------------------------
 
 First, we’ll start by testing the lid open/close function. Just run the testscript.py file by typing the following in the console:
 sudo python testscript.py
